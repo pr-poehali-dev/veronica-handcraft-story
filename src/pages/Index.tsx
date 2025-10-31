@@ -140,7 +140,7 @@ const Index = () => {
       </section>
 
       <section id="about" className="py-20 px-4 bg-white/50">
-        <div className="container mx-auto max-w-4xl">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16 animate-fade-in">
             <Badge className="mb-4 bg-gradient-to-r from-secondary to-accent">
               <Icon name="Heart" size={14} className="mr-1" />
@@ -150,6 +150,19 @@ const Index = () => {
             <p className="text-xl text-muted-foreground leading-relaxed">
               Творчество - это не просто хобби, это способ самовыражения и источник радости
             </p>
+          </div>
+
+          <div className="mb-12 animate-fade-in">
+            <div className="relative overflow-hidden rounded-3xl shadow-2xl">
+              <img
+                src="https://cdn.poehali.dev/files/13493b02-01e1-4661-8cc2-8a657353af32.jpg"
+                alt="Галерея моих работ"
+                className="w-full h-auto"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent flex items-end p-8">
+                <p className="text-white text-lg font-semibold">Стена моих творений - каждая работа с душой ✨</p>
+              </div>
+            </div>
           </div>
 
           <div className="space-y-8 animate-slide-up">
